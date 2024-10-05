@@ -1,4 +1,4 @@
-package com.example.smdassignment2;
+package com.example.assignment2smd;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -8,7 +8,7 @@ import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.example.smdassignment2.R;
+import com.example.assignment2smd.R;
 
 public class SplashActivity extends AppCompatActivity {
 
@@ -25,7 +25,7 @@ public class SplashActivity extends AppCompatActivity {
         appLogo.startAnimation(scale);
 
         new Handler().postDelayed(() -> {
-            Intent intent = new Intent(SplashActiv.this, MainActivity.class);
+            Intent intent = new Intent(SplashActivity.this, MainActivity.class);
             startActivity(intent);
             finish();
         }, 4500);
