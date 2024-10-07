@@ -1,4 +1,4 @@
-package com.example.smdassignment2;
+package com.example.assignment2smd;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -7,7 +7,7 @@ import android.widget.EditText;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.example.smdassignment2.R;
+import com.example.assignment2smd.R;
 
 public class InputActivity extends AppCompatActivity {
 
@@ -17,7 +17,7 @@ public class InputActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.input_fragss);
+        setContentView(R.layout.input_fragment);
 
         taskNameEditText = findViewById(R.id.taskNameEditText);
         saveButton = findViewById(R.id.saveButton);
